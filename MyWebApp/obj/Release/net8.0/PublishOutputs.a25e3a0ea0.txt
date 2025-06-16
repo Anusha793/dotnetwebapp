@@ -1,0 +1,7 @@
+C:\Users\vinna\OneDrive\Desktop\.netwebapp\MyWebApp\Publish\MyWebApp.exe
+C:\Users\vinna\OneDrive\Desktop\.netwebapp\MyWebApp\Publish\appsettings.Development.json
+C:\Users\vinna\OneDrive\Desktop\.netwebapp\MyWebApp\Publish\appsettings.json
+C:\Users\vinna\OneDrive\Desktop\.netwebapp\MyWebApp\Publish\MyWebApp.dll
+C:\Users\vinna\OneDrive\Desktop\.netwebapp\MyWebApp\Publish\MyWebApp.deps.json
+C:\Users\vinna\OneDrive\Desktop\.netwebapp\MyWebApp\Publish\MyWebApp.runtimeconfig.json
+C:\Users\vinna\OneDrive\Desktop\.netwebapp\MyWebApp\Publish\MyWebApp.pdb
