@@ -23,17 +23,11 @@ jobs:
         with:
           dotnet-version: 'v8.0'
 
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
-
-      - name: dotnet publish
-        run: dotnet publish -c Release -o "${{env.DOTNET_ROOT}}/myapp"
-
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
-          name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          name: app-zip
+          path: myapp.zip
 
   deploy:
     runs-on: windows-latest
@@ -49,7 +43,7 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: .net-app
+          name: app-zip
       
       - name: Login to Azure
         uses: azure/login@v2
